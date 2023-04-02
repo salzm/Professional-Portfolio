@@ -34,14 +34,22 @@ background-color: beige;
 
   /* About Me */
 
+.aboutme {
+  margin-top: 10%;
+}
 
 
   /* Image minipulation here! (Sal) */
 
   img {
-    width: 40%;
+    width: 30%;
     height: auto;
   }
+
+  img {width: 30%;
+  height: auto;
+  
+}
 
   /* Manipulating the section of about me div id "me" */
 #me {
@@ -49,6 +57,8 @@ background-color: beige;
   border: 3px solid darkblue;
   color: darkblue;
   float: right;
+
+
 
   background-color: skyblue;
     width: 300px;
@@ -96,9 +106,13 @@ background-color: beige;
 
   /* Projects Div */
  
-
+.Projects {
+  margin-top: 10%;
+}
    /* Contact Me Div */
-
+.Contact {
+  margin-top: 10%;
+}
     
 
 
