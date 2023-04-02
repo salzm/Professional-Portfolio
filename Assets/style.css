@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.header {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* Change font size of headings */
+
+header h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: darkblue;
+  
+}
+  
+  /* Change the margin */
+  h2 {
+    margin: 2% 0;
+    font-size: 200%;
+   
+  }
+
+body {
+background-color: beige;
+}
+
+  /* About Me */
+
+
+
+  /* Image minipulation here! (Sal) */
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  /* Manipulating the section of about me div id "me" */
+#me {
+  
+  border: 3px solid darkblue;
+  color: darkblue;
+  float: right;
+
+  background-color: skyblue;
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+  nav {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 0;
+  
+  }
+  /* need to move buttons all the way to the top. Also I need to make it when clickin on button it takes me to sections! IE about me project, etc */
+  button {
+    margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+     
+    }
+  
+  /* The user's cursor is positioned over the element */
+  button:hover {
+    background-color:aqua;
+    color: black;
+  }
+  
+  /* The user is actively pressing down on the element */
+  button:active {
+    font-size: 180%;
+    box-shadow: 0 0 10px #000 inset;
+  }
+  
+  /* The element is currently in focus, either by tabbing to or clicking on it */
+  button:focus {
+    outline: none;
+    border-color: #8ac4ff;
+  }
+  
+
+ 
+
+  /* Projects Div */
+ 
+
+   /* Contact Me Div */
+
+    
+
+
+  /* Using DevTools, change the following properties to demonstrate the differences 
+.four {
+     Change font family: serif, sans-serif, monospace, cursive 
+    font-family: serif;
+    /Change font weight: bold, 100-900 
+    font-weight: 100;
+    /Change the font style: normal, italic, oblique 
+    
+} */
