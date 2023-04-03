@@ -7,7 +7,7 @@
 
 .header {
   padding: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
   background-color: #2a607c;
   color: #ffffff;
 }
@@ -17,7 +17,9 @@
 header h2 {
   display: inline-block;
   font-size: 30px;
-  color: darkblue;
+  color:lightblue;
+  margin: 5px;
+  padding-top: 5px;
   
 }
   
@@ -25,7 +27,8 @@ header h2 {
   h2 {
     margin: 2% 0;
     font-size: 200%;
-   
+    padding-right: 50px;
+    color: #2a607c;
   }
 
 body {
@@ -34,15 +37,15 @@ background-color: beige;
 
   /* About Me */
 
-.aboutme {
-  margin-top: 10%;
-}
-
+  .aboutme {
+    margin-top: 10%;
+  }
+  
 
   /* Image minipulation here! (Sal) */
 
   img {
-    width: 30%;
+    width: 35%;
     height: auto;
   }
 
@@ -52,20 +55,24 @@ background-color: beige;
 }
 
   /* Manipulating the section of about me div id "me" */
-#me {
   
-  border: 3px solid darkblue;
+.aboutme {
+  
+  border: 3px solid darkblue; 
   color: darkblue;
   float: right;
-
-
-
   background-color: skyblue;
-    width: 300px;
+    width: 500px;
     padding: 10px;
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
 }
+
+h2 {
+  text-align: left;
+}
+
 
   nav {
     display: flex;
@@ -80,6 +87,7 @@ background-color: beige;
     color: #13293d;
     background-color:lightblue;
     border: 3px solid #13293d;
+    margin-bottom: 40px;
      
     }
   
@@ -89,13 +97,13 @@ background-color: beige;
     color: black;
   }
   
-  /* The user is actively pressing down on the element */
+  /* The user is actively pressing down on the element. It will create an effect */
   button:active {
     font-size: 180%;
     box-shadow: 0 0 10px #000 inset;
   }
   
-  /* The element is currently in focus, either by tabbing to or clicking on it */
+  /* The element is currently in focus, either by tabbing to or clicking on it. color change*/
   button:focus {
     outline: none;
     border-color: #8ac4ff;
@@ -109,13 +117,83 @@ background-color: beige;
 .Projects {
   margin-top: 10%;
 }
-   /* Contact Me Div */
+
+a {
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+    
+}
+
+a1 {
+
+  margin: 10px;
+  font-size:150%;
+  color: #13293d;
+  background-color:lightblue;
+  border: 3px solid #13293d;
+  margin-bottom: 40px;
+}
+
+
+a2{
+
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+}
+
+
+   /* Contact Me Div in footer */
+
 .Contact {
   margin-top: 10%;
 }
     
 
+a3 {
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+}
 
+a4 {
+
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+}
+
+a5{
+
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+}
+
+a6{
+  margin: 10px;
+    font-size:150%;
+    color: #13293d;
+    background-color:lightblue;
+    border: 3px solid #13293d;
+    margin-bottom: 40px;
+}
   /* Using DevTools, change the following properties to demonstrate the differences 
 .four {
      Change font family: serif, sans-serif, monospace, cursive 
