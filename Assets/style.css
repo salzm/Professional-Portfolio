@@ -1,3 +1,12 @@
+/* variables! :3 */
+
+:root{
+--universal: lightblue;
+--blue: backround color:var(--universal);
+
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -17,7 +26,7 @@
 header h2 {
   display: inline-block;
   font-size: 30px;
-  color:lightblue;
+  color: var(--universal);
   margin: 5px;
   padding-top: 5px;
   
@@ -60,14 +69,15 @@ background-color: beige;
   
   border: 3px solid darkblue; 
   color: darkblue;
-  float: right;
-  background-color: skyblue;
+  float: center;
+  background-color:var(--universal);
     width: 500px;
     padding: 10px;
     margin-right: 10px;
     font-size: 20px;
     text-align: center;
-}
+  
+  }
 
 h2 {
   text-align: left;
@@ -85,7 +95,7 @@ h2 {
     margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
      
@@ -116,24 +126,41 @@ h2 {
  
 .Projects {
   margin-top: 10%;
+  
 }
 
 a {
   margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
-    
+  
 }
+
+a:hover {
+  background-color: red;
+  color: black;
+}
+
+a1:hover {
+  background-color: red;
+  color: black;
+}
+
+a2:hover {
+  background-color: red;
+  color: black;
+}
+
 
 a1 {
 
   margin: 10px;
   font-size:150%;
   color: #13293d;
-  background-color:lightblue;
+  background-color:var(--universal);
   border: 3px solid #13293d;
   margin-bottom: 40px;
 }
@@ -144,7 +171,7 @@ a2{
   margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
 }
@@ -161,9 +188,11 @@ a3 {
   margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
+    text-align: center;
+    
 }
 
 a4 {
@@ -171,7 +200,7 @@ a4 {
   margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
 }
@@ -180,8 +209,8 @@ a5{
 
   margin: 10px;
     font-size:150%;
-    color: #13293d;
-    background-color:lightblue;
+    color: #13293d;    
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
 }
@@ -190,7 +219,7 @@ a6{
   margin: 10px;
     font-size:150%;
     color: #13293d;
-    background-color:lightblue;
+    background-color:var(--universal);
     border: 3px solid #13293d;
     margin-bottom: 40px;
 }
