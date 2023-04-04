@@ -148,11 +148,11 @@ nav {
 .Projects li {
   background-color:var(--universal);
   text-align: center;
-  padding: 100px;
-  margin: 20px; 
+  padding: 110px;
   font-size: 30px;
   display: inline-block;
-  
+  margin: 11px; 
+
 
 }
 
