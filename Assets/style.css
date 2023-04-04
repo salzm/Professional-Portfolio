@@ -22,17 +22,17 @@
  
 }
 
-/*  
+
 .box-image{
 
-    height: 800px;
-    width: 100%;
+    height: 250px;
+    width: 1920px;
     margin-bottom: 25px;
     background-image: url(./backround.jpg);
     background-size: cover;
     background-position: center;
-
- */
+}
+ 
 
 
 
@@ -44,7 +44,6 @@ header h2 {
   color: var(--universal);
   margin-left: 0%;
   padding-top: 5px;
- ;
 
 }
   
@@ -100,10 +99,12 @@ nav {
   /* need to move buttons all the way to the top. Also I need to make it when clickin on button it takes me to sections! IE about me project, etc */
   nav li {
     margin: 10px;
-    color: #13293d;
+    color:lightblue;
+    font-size: 200%;
     margin-bottom: 40px;
   list-style-type: none;
   display: inline-block;
+  
   }
   
   /* The user's cursor is positioned over the element */
@@ -124,77 +125,97 @@ nav {
     outline: none;
   }
   
+  
 
 
   /* Projects Div */
  
-.Projects {
-  margin-top: 10%;
-}
-
 .Projects h2{
 
   font-size: 40px;
+  margin-bottom: 10%;
 }
 
-a {
-  margin: 10px;
-    font-size:150%;
-    color: #13293d;
-    background-color:var(--universal);
-    border: 3px solid #13293d;
-    margin-bottom: 40px;
-  
-}
+
 
 a:hover {
   background-color: red;
   color: black;
+  cursor: grab;
 }
 
 a1:hover {
   background-color: red;
   color: black;
+  cursor: grab;
+
+
 }
 
 a2:hover {
   background-color: red;
   color: black;
+  cursor: grab;
+
 }
 
+a {
+  background-color:var(--universal);
+  width: 200px;
+  border: 15px solid blue;
+  padding: 100px;
+  margin: 0px; 
+  font-size: 30px;
+
+}
 
 a1 {
 
-  margin: 10px;
-  font-size:150%;
-  color: #13293d;
-  background-color:var(--universal);
-  border: 3px solid #13293d;
-  margin-bottom: 40px;
+ background-color:var(--universal);
+  width: 200px;
+  border: 15px solid blue;
+  padding: 100px;
+  margin: 0px; 
+  font-size: 30px;
+
 }
+
 
 
 a2{
 
-  margin: 10px;
-    font-size:150%;
-    color: #13293d;
-    background-color:var(--universal);
-    border: 3px solid #13293d;
-    margin-bottom: 40px;
+  background-color:var(--universal);
+  width: 200px;
+  border: 15px solid blue;
+  padding: 100px;
+  margin: 0px; 
+  font-size: 30px;
+
 }
+
 
 
    /* Contact Me Div in footer */
+   
+
+
 .Contact h2 {
   font-size: 40px;
+  margin-top: 5%;
 }
+
 
 
 .Contact {
-  margin-top: 10%;
+  margin-top: 5%;
 }
     
+a3:hover {
+  background-color: blue;
+  color: black;
+  cursor: grab;
+}
+  
 
 a3 {
   margin: 10px;
@@ -207,6 +228,13 @@ a3 {
     
 }
 
+a4:hover {
+  background-color: blue;
+  color: black;
+  cursor: grab;
+
+}
+  
 a4 {
 
   margin: 10px;
@@ -217,6 +245,13 @@ a4 {
     margin-bottom: 40px;
 }
 
+a5:hover {
+  background-color: blue;
+  color: black;
+  cursor: grab;
+
+}
+  
 a5{
 
   margin: 10px;
@@ -226,7 +261,13 @@ a5{
     border: 3px solid #13293d;
     margin-bottom: 40px;
 }
+a6:hover {
+  background-color: blue;
+  color: black;
+  cursor: grab;
 
+}
+  
 a6{
   margin: 10px;
     font-size:150%;
