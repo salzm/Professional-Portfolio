@@ -5,15 +5,17 @@ This assignment was to showcase how to start from scratch,implement HTML and CSS
 
 
 ## Usage
+Implemented in HTML Headers, Selections, Ul, Li, href for links, body, linking the CSS Style sheet together so the CSS code works with the HTML.
+In CSS used root to make sure the color properties were universal and not repeated in the code, refrenced classes, id, used flexbox concepts,refrencing img files to cater them to fit in a section, used the hover feature to make sure a cursor can be used when "hovering" over the items or boxes, used active and focus to make sure the box shadows worked with the hove, and implemented border, padding, text-align, font size, etc.
 
 
+![alt text](./Header.png)
+![alt text](./About%20Me.png)
+![alt text](./Project.png)
+![alt text](./Contact%20Me.png)
 
 
-![alt text](./assets/images/Example.png)
-![alt text](./assets/images/Example2.png)
-![alt text](./assets/images/Example3.png)
-![alt text](./assets/images/screenshot.png)
 
 Website URL!!
 
-https://salzm.github.io/Code-Refactor/
+https://salzm.github.io/Professional-Portfolio/

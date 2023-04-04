@@ -61,20 +61,13 @@ header h2 {
 body {
 background-color: beige;
 }
-  
 
   /* Image minipulation here! (Sal) */
 
   img {
-    width: 15%;
+    width: 20%;
     height: auto;
   }
-
-  img {width: 15%;
-  height: auto;
-  
-}
-
   /* Manipulating the section of about me div id "me" */
   
 .aboutme {
@@ -128,12 +121,8 @@ nav {
     outline: none;
   }
   
-  
-
 
   /* Projects Div */
- 
-
 
 
 .Projects h2{
