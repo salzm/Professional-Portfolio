@@ -9,10 +9,10 @@ Implemented in HTML Headers, Selections, Ul, Li, href for links, body, linking t
 In CSS used root to make sure the color properties were universal and not repeated in the code, refrenced classes, id, used flexbox concepts,refrencing img files to cater them to fit in a section, used the hover feature to make sure a cursor can be used when "hovering" over the items or boxes, used active and focus to make sure the box shadows worked with the hove, and implemented border, padding, text-align, font size, etc.
 
 
-![alt text](./Header.png)
-![alt text](./About%20Me.png)
-![alt text](./Project.png)
-![alt text](./Contact%20Me.png)
+![alt text](./Assets/Header.png)
+![alt text](./Assets/About%20Me.png)
+![alt text](./Assets/Project.png)
+![alt text](./Assets/Contact%20Me.png)
 
 
 
